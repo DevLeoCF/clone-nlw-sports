@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-fundo {
+    position: absolute;
+}
+
+.container-main {
+    position: relative;
+    text-align: center;
+}
+
+.container-main header p {
+    /* margin-top: 115px; */
+
+    position: absolute;
+    width: 560px;
+    height: 77px;
+    left: calc(50% - 560px/2);
+    top: 300px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 77px;
+    letter-spacing: -1.43px;
+
+    color: #FFFFFF;
+
+}
+
+.container-main header p span {
+    background: linear-gradient(89.86deg, #9572FC 6.08%, #43E7AD 50.94%, #E1D55D 99.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.container-main header img {
+    margin-top: 50px;
+}
+
+.container-cards {
+    margin-top: 200px
+}
+
+.cards img {
+    padding: 15px;
+}
+
+.cards img:hover {
+    opacity: 80%;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+#left-arrow {
+    margin-bottom: 80px;
+}
+
+#rigth-arrow {
+    margin-bottom: 80px;
+}
+
+.footer {
+    margin-left: 280px;
+    width: 1340px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: #2A2634;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid red;
+    border-image: linear-gradient(89.86deg, #9572FC 23.08%, #43E7AD 33.94%, #E1D55D 44.57%) 1 stretch;
+    -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#fff 0 0);
+}
+
+.texto1 {
+    font-weight: 900;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.texto1 p:nth-child(2) {
+    color: #A1A1AA;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+
+.footer button {
+    background-color: #8B5CF6;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.18px;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8B5CF6;
+    margin-left: -220px;
+    color: #FFFFFF;
+
+}
+
+.footer button:hover {
+    /* opacity: 80%; */
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
